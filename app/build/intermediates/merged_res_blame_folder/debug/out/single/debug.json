@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_tab_unselected.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_tab_unselected.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_card_16.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_card_16.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_subject.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_subject.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_chip_purple.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_chip_purple.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_activity_main.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_toolbar_blue.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_toolbar_blue.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_tab_purple_selected.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_tab_purple_selected.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_input_field_purple.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_input_field_purple.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_fragment_schedule.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_card_12.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_card_12.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_deadline_1.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_deadline_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_timeline.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_timeline.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_activity_login.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_timeline_1.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_timeline_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_subject_3.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_3.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_search_box_purple.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_search_box_purple.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_badge_red.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_badge_red.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_badge_green.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_badge_green.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_input_field_green.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_input_field_green.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_button_green.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_button_green.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_gradient_purple.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_gradient_purple.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_google_button.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_google_button.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_rounded_20.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_rounded_20.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_chip_red.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_chip_red.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_gradient_blue_dark.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_gradient_blue_dark.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_schedule_today_1.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_schedule_today_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_subject_4.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_4.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_button_primary.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/color_bottom_nav_color_selector.xml.flat",
+        "source": "com.studyplan.app-main-41:/color/bottom_nav_color_selector.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_assignment_2.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment_2.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_tab_selected.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_tab_selected.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.studyplan.app-main-41:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_rounded_card.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_rounded_card.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_fragment_assignment.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/fragment_assignment.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_dialog_add_subject.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/dialog_add_subject.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_gradient_blue.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_gradient_blue.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_chip_green.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_chip_green.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_input_field.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_input_field.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_fragment_subject.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/fragment_subject.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_calendar_today.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_calendar_today.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_schedule_today_2.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_schedule_today_2.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_deadline_2.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_deadline_2.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_search_box_orange.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_search_box_orange.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_dialog_add_schedule.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/dialog_add_schedule.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_fragment_account.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_search_box_green.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_search_box_green.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_subject_1.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_gradient_orange.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_gradient_orange.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_badge_orange.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_badge_orange.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_badge_blue.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_badge_blue.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_gradient_green.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_gradient_green.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_subject_5.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_5.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_bottom_sheet.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_assignment_3.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment_3.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_dialog_add_assignment.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/dialog_add_assignment.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_timeline_3.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_timeline_3.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_fragment_home.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_dialog_google_fallback.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/dialog_google_fallback.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_card_elevated.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_card_elevated.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_button_outline.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_button_outline.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_chip_unselected.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_chip_unselected.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_search_box.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_search_box.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_fab.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_fab.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_dialog_edit_profile.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/dialog_edit_profile.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_input_field_orange.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_input_field_orange.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_dialog_rounded.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_dialog_rounded.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_button_logout.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_button_logout.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_subject_2.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_2.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_chip_blue.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_chip_blue.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_greeting_gradient.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_greeting_gradient.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_profile_card.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_profile_card.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_profile_header.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_profile_header.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_info_card_blue.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_info_card_blue.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_chip_grey.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_chip_grey.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_assignment_1.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_chip_orange_selected.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_chip_orange_selected.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_ripple_card.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/ripple_card.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_chip_orange.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_chip_orange.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_assignment_4.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment_4.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_timeline_2.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_timeline_2.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/layout_item_assignment.xml.flat",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment.xml"
+    },
+    {
+        "merged": "com.studyplan.app-merged_res-39:/drawable_bg_avatar_circle.xml.flat",
+        "source": "com.studyplan.app-main-41:/drawable/bg_avatar_circle.xml"
+    }
+]

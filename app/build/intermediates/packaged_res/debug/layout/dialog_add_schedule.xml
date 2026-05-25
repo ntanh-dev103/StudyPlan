@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- ── Môn học — Spinner từ SubjectDAO ─────────────────── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Môn học *"
+            android:textColor="@color/sp_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!--
+            ID: spinner_schedule_subject
+            Dùng: ScheduleFragment lấy Subject từ SubjectDAO → ArrayAdapter
+        -->
+        <Spinner
+            android:id="@+id/spinner_schedule_subject"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_input_field_purple"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp" />
+
+        <TextView
+            android:id="@+id/tv_error_subject_sched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="⚠ Vui lòng chọn môn học"
+            android:textColor="@color/status_late"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <!-- ── Thứ trong tuần — Spinner ─────────────────────────── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Thứ trong tuần *"
+            android:textColor="@color/sp_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_day"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_input_field_purple"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp" />
+
+        <!-- ── Giờ bắt đầu + Giờ kết thúc ──────────────────────── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <!-- Giờ bắt đầu -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giờ bắt đầu *"
+                    android:textColor="@color/sp_text_primary"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <!--
+                    ID: tv_start_time
+                    Chỉ đọc (focusable=false), click → mở TimePickerDialog.
+                    Hiển thị kết quả format HH:mm sau khi chọn.
+                -->
+                <TextView
+                    android:id="@+id/tv_start_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/bg_input_field_purple"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="⏰ 07:30"
+                    android:paddingStart="14dp"
+                    android:paddingEnd="14dp"
+                    android:textColor="@color/sp_text_primary"
+                    android:textColorHint="@color/sp_text_secondary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- Giờ kết thúc -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giờ kết thúc *"
+                    android:textColor="@color/sp_text_primary"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <!--
+                    ID: tv_end_time
+                    Chỉ đọc (focusable=false), click → mở TimePickerDialog.
+                    Hiển thị kết quả format HH:mm sau khi chọn.
+                -->
+                <TextView
+                    android:id="@+id/tv_end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/bg_input_field_purple"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="⏰ 09:00"
+                    android:paddingStart="14dp"
+                    android:paddingEnd="14dp"
+                    android:textColor="@color/sp_text_primary"
+                    android:textColorHint="@color/sp_text_secondary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Error giờ -->
+        <TextView
+            android:id="@+id/tv_error_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="⚠ Giờ kết thúc phải sau giờ bắt đầu"
+            android:textColor="@color/status_late"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <!-- ── Phòng học ──────────────────────────────────────────── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Phòng học"
+            android:textColor="@color/sp_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_room"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_input_field_purple"
+            android:hint="VD: P.A101"
+            android:inputType="text"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textColor="@color/sp_text_primary"
+            android:textColorHint="@color/sp_text_secondary"
+            android:textSize="14sp" />
+
+        <!-- ── Giảng viên ─────────────────────────────────────────── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Giảng viên"
+            android:textColor="@color/sp_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_input_field_purple"
+            android:hint="Nhập tên giảng viên"
+            android:inputType="text"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textColor="@color/sp_text_primary"
+            android:textColorHint="@color/sp_text_secondary"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

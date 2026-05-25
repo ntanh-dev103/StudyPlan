@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Avatar preview: cập nhật live theo TextWatcher khi gõ tên -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tv_avatar_preview"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/bg_avatar_circle"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Họ và tên * -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên *"
+        android:textColor="@color/sp_text_primary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!--
+        ID: et_profile_name
+        Dùng: AccountFragment.showEditProfileDialog() pre-fill + lưu vào SharedPreferences.
+    -->
+    <EditText
+        android:id="@+id/et_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/bg_input_field"
+        android:hint="Nhập họ và tên đầy đủ"
+        android:inputType="textPersonName"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:textColor="@color/sp_text_primary"
+        android:textColorHint="@color/sp_text_secondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_error_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="⚠ Vui lòng nhập họ và tên"
+        android:textColor="@color/status_late"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <!-- Vai trò / Ghi chú (optional) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Vai trò / Ghi chú"
+        android:textColor="@color/sp_text_primary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!--
+        ID: et_profile_role
+        Dùng: AccountFragment pre-fill + update tv_profile_role trên profile card.
+    -->
+    <EditText
+        android:id="@+id/et_profile_role"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/bg_input_field"
+        android:hint="VD: Sinh viên CNTT K22"
+        android:inputType="text"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:textColor="@color/sp_text_primary"
+        android:textColorHint="@color/sp_text_secondary"
+        android:textSize="14sp" />
+
+    <!-- Ghi chú email -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="💡 Email đăng nhập không thể thay đổi"
+        android:textColor="@color/sp_text_secondary"
+        android:textSize="12sp" />
+
+</LinearLayout>

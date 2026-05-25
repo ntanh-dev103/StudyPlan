@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- ── Tên bài tập ────────────────────────────────────── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên bài tập *"
+            android:textColor="@color/sp_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_assignment_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_input_field_orange"
+            android:hint="Nhập tên bài tập"
+            android:inputType="text"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textColor="@color/sp_text_primary"
+            android:textColorHint="@color/sp_text_secondary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_error_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="⚠ Vui lòng nhập tên bài tập"
+            android:textColor="@color/status_late"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <!-- ── Môn học — Spinner từ SubjectDAO ────────────────── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Môn học *"
+            android:textColor="@color/sp_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!--
+            ID: spinner_assignment_subject
+            Dùng: AssignmentFragment.java lấy danh sách Subject từ SubjectDAO
+                  rồi tạo ArrayAdapter populate vào đây.
+        -->
+        <Spinner
+            android:id="@+id/spinner_assignment_subject"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_input_field_orange"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp" />
+
+        <TextView
+            android:id="@+id/tv_error_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="⚠ Vui lòng chọn môn học"
+            android:textColor="@color/status_late"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <!-- ── Deadline — click để mở DatePickerDialog + TimePickerDialog ── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Deadline *"
+            android:textColor="@color/sp_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!--
+            ID: tv_deadline_display
+            Dùng: click → DatePickerDialog → TimePickerDialog
+                  Hiển thị format "dd-MM-yyyy HH:mm" sau khi chọn.
+        -->
+        <TextView
+            android:id="@+id/tv_deadline_display"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_input_field_orange"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:hint="📅 Nhấn để chọn ngày và giờ"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textColor="@color/sp_text_primary"
+            android:textColorHint="@color/sp_text_secondary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_error_deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="⚠ Vui lòng chọn deadline"
+            android:textColor="@color/status_late"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <!-- ── Mức ưu tiên ─────────────────────────────────────── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Mức ưu tiên"
+            android:textColor="@color/sp_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <!--
+                id chip_priority_high / chip_priority_medium / chip_priority_low
+                Khi click: Java cập nhật selectedPriority[] và đổi background chip.
+            -->
+            <TextView
+                android:id="@+id/chip_priority_high"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_chip_red"
+                android:paddingStart="14dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="14dp"
+                android:paddingBottom="6dp"
+                android:text="🔴 Cao"
+                android:textColor="@color/chip_red_text"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/chip_priority_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_chip_unselected"
+                android:paddingStart="14dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="14dp"
+                android:paddingBottom="6dp"
+                android:text="🟠 Trung bình"
+                android:textColor="@color/sp_text_secondary"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/chip_priority_low"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_chip_unselected"
+                android:paddingStart="14dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="14dp"
+                android:paddingBottom="6dp"
+                android:text="🟢 Thấp"
+                android:textColor="@color/sp_text_secondary"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- ── Trạng thái ──────────────────────────────────────── -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Trạng thái"
+            android:textColor="@color/sp_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:flexWrap="wrap">
+
+            <!--
+                id chip_status_not_started / in_progress / done / late
+                Khi click: Java cập nhật selectedStatus[] và đổi background.
+            -->
+            <TextView
+                android:id="@+id/chip_status_not_started"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_chip_orange_selected"
+                android:paddingStart="12dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="5dp"
+                android:text="⚪ Chưa làm"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/chip_status_in_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_chip_unselected"
+                android:paddingStart="12dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="5dp"
+                android:text="🔵 Đang làm"
+                android:textColor="@color/sp_text_secondary"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/chip_status_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_chip_unselected"
+                android:paddingStart="12dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="5dp"
+                android:text="✅ Hoàn thành"
+                android:textColor="@color/sp_text_secondary"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/chip_status_late"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_chip_unselected"
+                android:paddingStart="12dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="5dp"
+                android:text="🔴 Trễ hạn"
+                android:textColor="@color/sp_text_secondary"
+                android:textSize="12sp" />
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+</ScrollView>

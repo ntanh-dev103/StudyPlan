@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_deadline_1.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_deadline_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_assignment_2.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment_2.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/fragment_account.xml",
+        "source": "com.studyplan.app-main-41:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/fragment_assignment.xml",
+        "source": "com.studyplan.app-main-41:/layout/fragment_assignment.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_timeline_3.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_timeline_3.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_subject_4.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_4.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_subject_1.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_timeline.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_timeline.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_subject_3.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_3.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_timeline_1.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_timeline_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_assignment_4.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment_4.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/dialog_add_assignment.xml",
+        "source": "com.studyplan.app-main-41:/layout/dialog_add_assignment.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/activity_login.xml",
+        "source": "com.studyplan.app-main-41:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_subject_5.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_5.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/fragment_schedule.xml",
+        "source": "com.studyplan.app-main-41:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_subject.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_subject.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/dialog_add_schedule.xml",
+        "source": "com.studyplan.app-main-41:/layout/dialog_add_schedule.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_timeline_2.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_timeline_2.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_schedule_today_2.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_schedule_today_2.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/fragment_home.xml",
+        "source": "com.studyplan.app-main-41:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_assignment_1.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/fragment_subject.xml",
+        "source": "com.studyplan.app-main-41:/layout/fragment_subject.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_assignment.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/dialog_google_fallback.xml",
+        "source": "com.studyplan.app-main-41:/layout/dialog_google_fallback.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_assignment_3.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_assignment_3.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/dialog_edit_profile.xml",
+        "source": "com.studyplan.app-main-41:/layout/dialog_edit_profile.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_schedule_today_1.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_schedule_today_1.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/dialog_add_subject.xml",
+        "source": "com.studyplan.app-main-41:/layout/dialog_add_subject.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/activity_main.xml",
+        "source": "com.studyplan.app-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_subject_2.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_subject_2.xml"
+    },
+    {
+        "merged": "com.studyplan.app-mergeDebugResources-38:/layout/item_deadline_2.xml",
+        "source": "com.studyplan.app-main-41:/layout/item_deadline_2.xml"
+    }
+]

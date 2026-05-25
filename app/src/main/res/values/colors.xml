@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors per Tab -->
+    <color name="blue_primary">#2962FF</color>
+    <color name="blue_dark">#1A237E</color>
+    <color name="blue_light">#E3F2FD</color>
+    <color name="blue_gradient_start">#2962FF</color>
+    <color name="blue_gradient_end">#1565C0</color>
+
+    <color name="green_primary">#4CAF50</color>
+    <color name="green_dark">#2E7D32</color>
+    <color name="green_light">#E8F5E9</color>
+    <color name="green_gradient_start">#66BB6A</color>
+    <color name="green_gradient_end">#2E7D32</color>
+
+    <color name="purple_primary">#7B1FA2</color>
+    <color name="purple_dark">#4A148C</color>
+    <color name="purple_light">#F3E5F5</color>
+    <color name="purple_gradient_start">#9C27B0</color>
+    <color name="purple_gradient_end">#6A1B9A</color>
+
+    <color name="orange_primary">#FF6D00</color>
+    <color name="orange_dark">#E65100</color>
+    <color name="orange_light">#FFF3E0</color>
+    <color name="orange_gradient_start">#FFA726</color>
+    <color name="orange_gradient_end">#E65100</color>
+
+    <!-- Status Colors -->
+    <color name="status_done">#4CAF50</color>
+    <color name="status_in_progress">#2196F3</color>
+    <color name="status_not_started">#9E9E9E</color>
+    <color name="status_late">#F44336</color>
+    <color name="status_upcoming">#FF9800</color>
+    <color name="status_today">#FF5722</color>
+
+    <!-- Priority Colors -->
+    <color name="priority_high">#F44336</color>
+    <color name="priority_medium">#FF9800</color>
+    <color name="priority_low">#4CAF50</color>
+
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="background">#F5F7FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="overlay_dark">#80000000</color>
+    <color name="surface_light">#FAFBFC</color>
+
+    <!-- Chip Colors -->
+    <color name="chip_green_bg">#E8F5E9</color>
+    <color name="chip_green_text">#2E7D32</color>
+    <color name="chip_blue_bg">#E3F2FD</color>
+    <color name="chip_blue_text">#1565C0</color>
+    <color name="chip_grey_bg">#F5F5F5</color>
+    <color name="chip_grey_text">#616161</color>
+    <color name="chip_red_bg">#FFEBEE</color>
+    <color name="chip_red_text">#C62828</color>
+    <color name="chip_orange_bg">#FFF3E0</color>
+    <color name="chip_orange_text">#E65100</color>
+    <color name="chip_purple_bg">#F3E5F5</color>
+    <color name="chip_purple_text">#6A1B9A</color>
+
+    <!-- Calendar -->
+    <color name="calendar_today_bg">#7B1FA2</color>
+    <color name="calendar_dot">#FF5722</color>
+    <color name="calendar_dot_green">#4CAF50</color>
+    <color name="calendar_dot_blue">#2196F3</color>
+    <color name="calendar_inactive">#BDBDBD</color>
+
+    <!-- Bottom Nav -->
+    <color name="bottom_nav_active">#2962FF</color>
+    <color name="bottom_nav_inactive">#9E9E9E</color>
+    <color name="bottom_nav_bg">#FFFFFF</color>
+
+    <!-- Google Button -->
+    <color name="google_btn_border">#DADCE0</color>
+    <color name="google_btn_text">#3C4043</color>
+
+    <!-- Error -->
+    <color name="error_red">#D32F2F</color>
+    <color name="error_bg">#FFEBEE</color>
+
+    <!-- FAB Colors -->
+    <color name="fab_green">#00C853</color>
+    <color name="fab_orange">#FF6D00</color>
+    <color name="fab_purple">#7B1FA2</color>
+
+    <!-- Timeline accent -->
+    <color name="timeline_line">#E0E0E0</color>
+    <color name="timeline_dot">#7B1FA2</color>
+
+
+
+    <!-- ─── Module Colors (màu nhận diện từng module) ───────── -->
+    <color name="module_subject">#4CAF50</color>
+    <color name="module_schedule">#7B1FA2</color>
+    <color name="module_assignment">#FF6D00</color>
+    <color name="module_account">#1A237E</color>
+
+    <!-- ─── Status Colors (đúng hex theo spec) ──────────────── -->
+    <!-- Note: status_done và status_late đã có; ghi đè bằng giá trị chuẩn -->
+    <color name="status_done_spec">#4CAF50</color>
+    <color name="status_in_progress_spec">#2196F3</color>
+    <color name="status_not_started_spec">#9E9E9E</color>
+    <color name="status_late_spec">#F44336</color>
+    <color name="status_upcoming_spec">#FF9800</color>
+
+    <!-- ─── Soft Background Colors ───────────────────────────── -->
+    <color name="soft_blue">#E3F2FD</color>
+    <color name="soft_green">#E8F5E9</color>
+    <color name="soft_purple">#F3E5F5</color>
+    <color name="soft_orange">#FFF3E0</color>
+    <color name="soft_red">#FFEBEE</color>
+
+    <!-- ─── StudyPlan sp_* Aliases (chuẩn spec) ─────────────── -->
+    <color name="sp_primary">#2962FF</color>
+    <color name="sp_primary_dark">#1A237E</color>
+    <color name="sp_primary_light">#E3F2FD</color>
+    <color name="sp_background">#F5F7FA</color>
+    <color name="sp_surface">#FFFFFF</color>
+    <color name="sp_text_primary">#212121</color>
+    <color name="sp_text_secondary">#757575</color>
+    <color name="sp_text_hint">#BDBDBD</color>
+    <color name="sp_divider">#EEEEEE</color>
+    <color name="sp_accent_green">#4CAF50</color>
+    <color name="sp_accent_purple">#7B1FA2</color>
+    <color name="sp_accent_orange">#FF6D00</color>
+    <color name="sp_error">#F44336</color>
+    <color name="sp_error_bg">#FFEBEE</color>
+    <color name="sp_success">#4CAF50</color>
+    <color name="sp_warning">#FF9800</color>
+    <color name="sp_danger">#F44336</color>
+    <color name="sp_white">#FFFFFF</color>
+    <color name="sp_overlay">#80000000</color>
+</resources>

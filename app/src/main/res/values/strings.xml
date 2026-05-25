@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudyPlan</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Trang Chủ</string>
+    <string name="nav_subject">Môn Học</string>
+    <string name="nav_schedule">Lịch Học</string>
+    <string name="nav_assignment">Bài Tập</string>
+    <string name="nav_account">Tài Khoản</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_date">THỨ 3, 14-05-2026</string>
+    <string name="greeting_hello">Xin chào,\nTuấn Anh 👋</string>
+    <string name="tasks_count">4/7</string>
+    <string name="tasks_label">tasks</string>
+    <string name="status_completed">Hoàn thành: 4</string>
+    <string name="status_in_progress">Đang làm: 2</string>
+    <string name="status_not_started">Chưa làm: 1</string>
+    <string name="section_today_schedule">Lịch học hôm nay</string>
+    <string name="section_upcoming_deadline">Deadline sắp đến</string>
+    <string name="view_all">Xem tất cả</string>
+
+    <!-- Subject Screen -->
+    <string name="search_subject_hint">Tìm môn học…</string>
+    <string name="subject_count_label">Môn học</string>
+    <string name="credit_count_label">Tín chỉ</string>
+    <string name="semester_count_label">Học kỳ</string>
+    <string name="subject_list_title">DANH SÁCH MÔN HỌC</string>
+
+    <!-- Schedule Screen -->
+    <string name="month_title">Tháng 5 2026</string>
+    <string name="auto_schedule_title">Tự động xếp lịch</string>
+    <string name="auto_schedule_desc">Hệ thống sắp xếp dựa trên môn học\nđã đăng ký</string>
+    <string name="btn_auto_schedule">Xếp lịch ngay</string>
+    <string name="btn_manual_schedule">Tự xếp</string>
+    <string name="schedule_day_title">Thứ 5, 14-05-2026</string>
+
+    <!-- Assignment Screen -->
+    <string name="assignment_count_label">Bài tập</string>
+    <string name="late_count_label">Trễ deadline</string>
+    <string name="done_count_label">Đã xong</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_in_progress">Đang làm</string>
+    <string name="filter_done">Đã xong</string>
+    <string name="filter_not_started">Chưa làm</string>
+    <string name="filter_late">Trễ</string>
+    <string name="sort_by_deadline">Sắp xếp theo  Deadline ▾</string>
+
+    <!-- Account Screen -->
+    <string name="profile_name">Nguyễn Tuấn Anh</string>
+    <string name="profile_role">Nhóm trưởng Backend</string>
+    <string name="stat_subject">Môn</string>
+    <string name="stat_schedule">Lịch</string>
+    <string name="stat_assignment">Bài tập</string>
+    <string name="menu_subject">Môn học</string>
+    <string name="menu_schedule">Lịch học</string>
+    <string name="menu_assignment">Bài tập</string>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_notification">Thông báo</string>
+    <string name="menu_about">Giới thiệu</string>
+    <string name="menu_logout">Đăng xuất</string>
+
+    <!-- Login Screen -->
+    <string name="tab_login">Đăng nhập</string>
+    <string name="tab_register">Đăng ký</string>
+    <string name="label_email">Email</string>
+    <string name="hint_email">example@email.com</string>
+    <string name="label_password">Mật khẩu</string>
+    <string name="hint_password">••••••••</string>
+    <string name="label_confirm_password">Xác nhận mật khẩu</string>
+    <string name="label_fullname">Họ và tên</string>
+    <string name="hint_fullname">Nhập họ và tên</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="divider_or">hoặc</string>
+    <string name="btn_google">Tiếp tục với Google</string>
+    <string name="error_email_required">Vui lòng nhập email</string>
+    <string name="error_email_invalid">Email không hợp lệ</string>
+    <string name="error_password_required">Vui lòng nhập mật khẩu</string>
+    <string name="error_password_short">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="error_password_mismatch">Mật khẩu xác nhận không khớp</string>
+    <string name="error_name_required">Vui lòng nhập họ và tên</string>
+
+    <!-- Status Badges -->
+    <string name="badge_studying">Đang học</string>
+    <string name="badge_upcoming">Sắp học</string>
+    <string name="badge_done">Đã xong</string>
+    <string name="badge_late">Trễ</string>
+    <string name="badge_today">Hôm nay</string>
+    <string name="badge_in_progress">Đang làm</string>
+    <string name="badge_not_started">Chưa làm</string>
+    <string name="badge_coming_soon">Sắp tới</string>
+
+    <!-- Subject Types -->
+    <string name="type_practice">Thực hành</string>
+    <string name="type_theory">Lý thuyết</string>
+
+    <!-- Calendar Days -->
+    <string name="cal_mon">T2</string>
+    <string name="cal_tue">T3</string>
+    <string name="cal_wed">T4</string>
+    <string name="cal_thu">T5</string>
+    <string name="cal_fri">T6</string>
+    <string name="cal_sat">T7</string>
+    <string name="cal_sun">CN</string>
+
+    <!-- Dialog titles -->
+    <string name="dialog_add_subject">Thêm môn học</string>
+    <string name="dialog_edit_subject">Sửa môn học</string>
+    <string name="dialog_delete_subject">Xóa môn học</string>
+    <string name="dialog_delete_confirm">Bạn có chắc muốn xóa môn học này?</string>
+    <string name="dialog_add_assignment">Thêm bài tập</string>
+    <string name="dialog_add_schedule">Thêm lịch học</string>
+    <string name="dialog_logout_title">Đăng xuất</string>
+    <string name="dialog_logout_message">Bạn có chắc muốn đăng xuất?</string>
+    <string name="dialog_edit_profile">Sửa thông tin</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="btn_add">Thêm</string>
+
+    <!-- Toast messages -->
+    <string name="toast_schedule_auto">Đang tự động xếp lịch…</string>
+    <string name="toast_saved">Đã lưu thành công!</string>
+    <string name="toast_deleted">Đã xóa!</string>
+    <string name="toast_added">Đã thêm!</string>
+
+    <!-- Google Sign-In -->
+    <string name="google_sign_in_failed">Đăng nhập Google thất bại. Vui lòng thử lại.</string>
+    <string name="google_sign_in_cancelled">Đã hủy đăng nhập Google</string>
+    <string name="google_sign_in_success">Đăng nhập Google thành công!</string>
+    <!-- TODO: Replace with your real Web Client ID from Firebase Console -->
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID.apps.googleusercontent.com</string>
+</resources>

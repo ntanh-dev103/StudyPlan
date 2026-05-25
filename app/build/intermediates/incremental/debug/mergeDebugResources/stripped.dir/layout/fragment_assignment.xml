@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Toolbar -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="60dp"
+            android:background="@drawable/bg_gradient_orange" android:gravity="center_vertical"
+            android:paddingStart="16dp" android:paddingEnd="16dp">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_revert" android:tint="@color/white" android:contentDescription="Back" />
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                android:gravity="center" android:text="@string/nav_assignment" android:textColor="@color/white"
+                android:textSize="22sp" android:textStyle="bold" />
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="12dp"
+                android:src="@android:drawable/ic_menu_sort_by_size" android:tint="@color/white" android:contentDescription="Filter" />
+            <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_sort_alphabetically" android:tint="@color/white" android:contentDescription="Sort" />
+        </LinearLayout>
+
+        <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+            android:scrollbars="none">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="16dp">
+
+                <!-- Stats bar -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:background="@drawable/bg_chip_orange"
+                        android:gravity="center" android:orientation="vertical" android:padding="14dp" android:layout_marginEnd="8dp">
+                        <TextView android:id="@+id/tv_total_count" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="6" android:textColor="@color/orange_dark" android:textSize="24sp" android:textStyle="bold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="@string/assignment_count_label" android:textColor="@color/orange_dark" android:textSize="12sp" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:background="@drawable/bg_chip_red"
+                        android:gravity="center" android:orientation="vertical" android:padding="14dp" android:layout_marginEnd="8dp">
+                        <TextView android:id="@+id/tv_late_count" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="2" android:textColor="@color/chip_red_text" android:textSize="24sp" android:textStyle="bold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="@string/late_count_label" android:textColor="@color/chip_red_text" android:textSize="12sp" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:background="@drawable/bg_chip_green"
+                        android:gravity="center" android:orientation="vertical" android:padding="14dp">
+                        <TextView android:id="@+id/tv_done_count" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="3" android:textColor="@color/chip_green_text" android:textSize="24sp" android:textStyle="bold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="@string/done_count_label" android:textColor="@color/chip_green_text" android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Search bar -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+                    android:layout_marginTop="12dp" android:background="@drawable/bg_search_box_orange"
+                    android:addStatesFromChildren="true"
+                    android:gravity="center_vertical" android:paddingStart="12dp" android:paddingEnd="12dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                        android:src="@android:drawable/ic_menu_search" android:tint="@color/text_hint"
+                        android:contentDescription="Search" />
+                    <EditText android:id="@+id/et_search_assignment"
+                        android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+                        android:layout_marginStart="8dp" android:background="@null"
+                        android:hint="Tìm bài tập, môn học..." android:textColorHint="@color/text_hint"
+                        android:textColor="@color/text_primary" android:textSize="14sp"
+                        android:inputType="text" android:maxLines="1" />
+                </LinearLayout>
+
+                <!-- Filter chips -->
+                <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp" android:scrollbars="none">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:id="@+id/chip_all"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:background="@drawable/bg_chip_orange_selected" android:paddingStart="16dp"
+                            android:paddingTop="8dp" android:paddingEnd="16dp" android:paddingBottom="8dp"
+                            android:text="@string/filter_all" android:textColor="@color/white" android:textSize="13sp" />
+                        <TextView android:id="@+id/chip_in_progress"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp" android:background="@drawable/bg_chip_unselected"
+                            android:paddingStart="16dp" android:paddingTop="8dp" android:paddingEnd="16dp" android:paddingBottom="8dp"
+                            android:text="@string/filter_in_progress" android:textColor="@color/text_secondary" android:textSize="13sp" />
+                        <TextView android:id="@+id/chip_done"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp" android:background="@drawable/bg_chip_unselected"
+                            android:paddingStart="16dp" android:paddingTop="8dp" android:paddingEnd="16dp" android:paddingBottom="8dp"
+                            android:text="@string/filter_done" android:textColor="@color/text_secondary" android:textSize="13sp" />
+                        <TextView android:id="@+id/chip_not_started"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp" android:background="@drawable/bg_chip_unselected"
+                            android:paddingStart="16dp" android:paddingTop="8dp" android:paddingEnd="16dp" android:paddingBottom="8dp"
+                            android:text="@string/filter_not_started" android:textColor="@color/text_secondary" android:textSize="13sp" />
+                        <TextView android:id="@+id/chip_late"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp" android:background="@drawable/bg_chip_unselected"
+                            android:paddingStart="16dp" android:paddingTop="8dp" android:paddingEnd="16dp" android:paddingBottom="8dp"
+                            android:text="@string/filter_late" android:textColor="@color/text_secondary" android:textSize="13sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <!-- Sort -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp" android:layout_gravity="end"
+                    android:text="@string/sort_by_deadline" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+                <!-- RecyclerView for assignments -->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_assignments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:clipToPadding="false"
+                    android:paddingBottom="80dp"
+                    android:nestedScrollingEnabled="false" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <!-- FAB -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_assignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/white"
+        android:backgroundTint="@color/orange_primary"
+        android:contentDescription="Add assignment" />
+
+</RelativeLayout>
